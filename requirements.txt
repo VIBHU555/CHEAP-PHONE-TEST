@@ -1,0 +1,8 @@
+# Runtime
+flask>=3.0,<4
+playwright>=1.48,<2        # then: python -m playwright install chromium
+# Demo app only (generates the hero image)
+numpy>=1.26
+pillow>=10
+# Tests: stdlib unittest (pytest optional: `pip install pytest` then `pytest tests`)
+# Frontend unit tests need Node >= 18 (no npm packages required)

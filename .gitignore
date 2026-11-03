@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.env
+backend/data/*.sqlite3*
+video/raw/
+node_modules/
+.pytest_cache/
+*.log
